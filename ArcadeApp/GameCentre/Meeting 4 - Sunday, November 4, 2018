@@ -1,0 +1,19 @@
+# Status update
+
+## Julian's tasks
+* Update global and personal leader boards to retrieve gameScores from .ser files and update
+new high scores as games are completed.
+
+## Joshua and Jonathan's tasks
+* Fix bug in touchMove in board manager. GridView did not update after each move. 
+* Undo function likely will encounter the same problem. This tasks remains outstanding.
+
+## Uzair's tasks
+* Update tile images in res folder. Work on bonus functionality.
+
+## Sid's tasks
+* Work on serializing accounts, gamefiles and load games.
+* Fix bug in load games serialization.
+
+### Next meeting - November 5, 2018. Update on status, determine final tasks to complete
+### and test application. 

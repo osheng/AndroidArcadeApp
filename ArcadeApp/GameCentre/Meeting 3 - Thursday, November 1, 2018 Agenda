@@ -1,0 +1,11 @@
+# Agenda
+
+## Outstanding tasks
+* Integrate class structures
+* Link classes to activity classes
+* Finish activity classes:
+    * how to populate a list with data from classes
+    * how to adjust gridview in xml to add buttons and other methods
+* Bonus functionality
+* Test app extensively - maybe build unit tests
+* Rethink design - look for code smells and try to fix them

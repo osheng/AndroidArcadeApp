@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SlidingTiles</string>
+    <string name="edit_message1">Enter Username</string>
+    <string name="button_label1">Log in</string>
+    <string name="edit_message2">Enter Password</string>
+    <string name="button_label2">Sign up</string>
+    <string name="textView">Welcome to GameCentre!</string>
+    <string name="button_label3">Guest</string>
+    <string name="button_label4">Slidingtiles</string>
+    <string name="textView1">Please select a game.</string>
+    <string name="textView2">More games coming soon…</string>
+    <string name="title_activity_personal_leader_board">PersonalLeaderBoard</string>
+    <string name="personal_top_scores">Personal Top Scores</string>
+    <string name="global_top_scores">Global Top Scores</string>
+    <string name="select_board_size">Enter a board size (3–5)</string>
+    <string name="checkers_select_board_size">Enter an even board size (4–12)</string>
+    <string name="opponent_type">Select your opponent</string>
+    <string name="number_of_undos">Enter your number of undos</string>
+    <string name="start">Start</string>
+    <string name="log_out">Log Out</string>
+    <string name="textView8">Select Save File</string>
+    <string name="loadbutton">Load</string>
+    <string name="undoButton">Undo</string>
+    <string name="newGame">New Game</string>
+    <string name="button">Checkers</string>
+    <string name="button2">2048</string>
+    <string name="Human">Human</string>
+    <string name="Hard">Hard</string>
+    <string name="Easy">Easy</string>
+</resources>

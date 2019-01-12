@@ -1,0 +1,13 @@
+# Touch base update
+* Jon, Josh, Julian finished cards for Checkers
+* Sid made progress on Savable but not finished yet
+* Julian worked on movement of checkers pieces
+* Uzir created activities specific for each game
+* Jon, Josh moved large parts of Board, BoardManager child classes into the parent
+
+## Deliverables for next meeting
+* Complete game functionality
+* Finish Savable implementations
+* Continue refactoring
+
+## Next meeting Sunday, November 25, after lunch

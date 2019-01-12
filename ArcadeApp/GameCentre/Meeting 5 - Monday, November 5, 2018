@@ -1,0 +1,28 @@
+# Status update and Final tasks
+
+## Julian's tasks
+* Global leaderboard and Personal leaderboard complete!
+* Update and finalize Readme and team files.
+* Clean up code by adding javadoc and removing dead code.
+
+## Jonathan's taks
+* Gridview successfully updating when moves , but undo not working. '-_-
+* Update and finalize Readme and team files.
+* Clean up XML files. Make buttons, editTexts font consistent.
+
+## Joshua's tasks
+* Fixed undo bug! :)
+* Assist in fixing load game bugs.
+* Clean up code by adding javadoc and removing dead code.
+
+## Uzair's tasks
+* Tile images successfully updated!
+* Assist in fixing undo and load game bugs.
+* Added password checker to login activity. Bonus functionality!
+
+## Sid's tasks
+* Work on serializing accounts, gamefiles and load games.
+* Testing and debugging app to figure out load games issue.
+* (Thank you Sid, serializing and retrieving the data correctly was very challenging!)
+
+### App is almost complete! Final testing and code review before submission! 

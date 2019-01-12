@@ -1,0 +1,71 @@
+# CRC discussion
+
+## Leaderboard Activity
+
+* Xml file representing this activity
+* Relevant class (might have to be abstract)
+* Compare a score to the leaderboard (Top n scores)
+* Add a score if it belongs on the leaderboard and shift the order below it (remove the lowest score)
+
+## Autosave method
+
+* There’s already a saveToFile and loadFromFile method in the Starting Activity Class if the code-writer wants to see what it looks like or modify so as to meet the current requirement.
+* NOTE: We’ll need to edit the playing method so that it calls AutoSave after every move (or modify the swapTiles). Julian suggested keeping track of all the moves instead of files with the gameStates. Uzair prefers files because undoing all the moves will be a complicated method and it would be easier to return the gameState. 
+* “Save(Board)
+* Account.gameStates.add(Board);”
+
+## Account class
+
+* Attributes: Username, Password, GameState (hashmap of previous gamestates, key is the saveID and value is the queue of states) or ArrayList.
+
+## Game Abstract class
+
+* Will be called from the “Select Game” Activity
+* Scoring of the game
+* GameState
+* Require autoSave method
+* Require Undo
+* “Saved Game” Activity
+* “SetUp” Activity
+* “Leaderboard” Activity
+
+## Account Manager class
+
+* Add Account method (verifies that the username is not already in use)
+* Load Account method (which verifies the key/value) from Account Class
+* Guest Account method (gives a random ID, can be added to leaderboard and ArrayList so that the user can undo)
+
+## Acount Manager activity
+
+* Opening screen.
+* Tells the user to select one of the options “Create Account, Login, or Use Guest Account”
+* Direct to Create Account or Login activity.
+* If the option selected is Guest Account, call the Guest Account method and direct to Game Screen activity.
+
+## Create Account activity
+
+* User inputs a username and password.
+* Calls the Add Account method in Account Manager.
+* Go to Game Screen Activity
+
+## Login activity
+
+* The user inputs their username and password.
+* Calls the Load Account method in Account Manager
+* If successful, goes to Game Screen Activity.
+* If unsuccessful, display an error message “Username or Password incorrect. Please try again”
+
+## Game Screen activity
+
+* This is where the game is selected. Should be called after a successful login or selection of a guest account.
+
+## Board Manager extends Game
+
+* Should not alter previous functionality.
+* Add autosave method (although it might be better to add that to Starting Activity class)
+* Add undo method (again we have to decide whether to keep track of all the moves or the gamestates)
+
+## Game center class and activity
+
+* Opening (this is the first screen that a user will see)
+* THIS IS REDUNDANT. I THINK WE SHOULD START WITH THE ACCOUNT MANAGER SCREEN WITH “WELCOME TO GAME CENTER. PLEASE SIGN IN, CREATE AN ACCOUNT, OR USE GUEST ACCOUNT”

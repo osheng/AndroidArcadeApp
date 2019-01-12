@@ -1,0 +1,14 @@
+# Start Phase 2!
+
+## Cleanup
+
+* Abstract our old classes and make them SlidingTiles specific: Board, BoardManager, Tile, SettingsActivity, StartingActivity, GameActivity (most work).
+* Julian: Board, Tile
+* Sid: Savable
+* Jon: GameActivity
+* Josh: Settings Activity, StartingActivity
+* Uzair: BoardManager
+
+## Next meeting Thursday, November 15, 2018
+* To write up CRC cards for our two new games: 2048 and checkers
+

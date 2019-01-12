@@ -1,0 +1,13 @@
+# Touch base update
+* Sid done implementing CRC cards for Twenty, Uzair made progress on Activities
+* Sid created Savable but not implemented yet
+* Jon, Josh, Julian about halfway done CRC cards for Checkers
+* Discussions with Uzair on how to best implement activities
+* Jon, Josh, Julian discuss optimal way to refactor Board, BoardManager, Tile, etc.
+
+## Deliverables for next meeting
+* Work out logistics for the Activities
+* Finish CRC card implementations
+* Begin refactoring
+
+## Next meeting Thursday, November 22, when everyone is free

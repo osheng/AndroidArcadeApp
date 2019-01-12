@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image"
+    tools:context="fall2018.csc2017.CoreClasses.StartingActivity">
+
+    <TextView
+        android:id="@+id/GameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text=""
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <Button
+        android:id="@+id/StartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_below="@+id/GameText"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="3dp"
+        android:text="@string/newGame" />
+
+    <Button
+        android:id="@+id/LoadButton"
+        android:layout_width="112dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/StartButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="23dp"
+        android:layout_toStartOf="@+id/LeaderBoardButton"
+        android:text="Load game" />
+
+    <Button
+        android:id="@+id/SaveButton"
+        android:layout_width="89dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/GameText"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="3dp"
+        android:layout_toEndOf="@+id/StartButton"
+        android:text="Save Game" />
+
+    <Button
+        android:id="@+id/LeaderBoardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_below="@+id/SaveButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="78dp"
+        android:text="Leaderboard" />
+
+</RelativeLayout>
